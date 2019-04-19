@@ -7,13 +7,13 @@ fi
 
 # Changeable variables, leaving the defaults is fine
 # File path for lancache
-lc_srv_loc="/srv/lancache"
+lc_srv_loc="/datastore/lancache"
 # Primary DNS Server
 lc_dns1="8.8.8.8"
 # Secondary DNS Server
 lc_dns2="4.2.2.2"
 # Proxy cache size, measued in Megabytes (MB). Default is 500GB
-lc_max_size="500000m"
+lc_max_size="1000000m"
 
 # Variables you should most likely not touch
 # Unless you know what you are doing
